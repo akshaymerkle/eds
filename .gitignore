@@ -8,6 +8,13 @@ helix-importer-ui
 *.bak
 .idea
 
+# Adobe skills (installed via npx skills)
+.agents/
+.agents/skills/
+.claude/
+skills-lock.json
+.vscode/
+
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
