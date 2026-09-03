@@ -1,0 +1,24 @@
+.teaser {
+  display: grid;
+  gap: 16px;
+}
+
+.teaser .teaser-image {
+  line-height: 0;
+}
+
+.teaser .teaser-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.teaser .teaser-title h1,
+.teaser .teaser-title h2,
+.teaser .teaser-title h3,
+.teaser .teaser-title h4,
+.teaser .teaser-title h5,
+.teaser .teaser-title h6 {
+  margin: 0;
+}
